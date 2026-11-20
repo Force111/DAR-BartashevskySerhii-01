@@ -1,5 +1,3 @@
----
-title: "Untitled"
-output: html_document
----
-
+**In your Rstudio New File > Quarto Document
+Choose title, for example Statistics Excercises, you can type in the Author, choose HTML as a format, click Create.
+Save the .qmd file.**
