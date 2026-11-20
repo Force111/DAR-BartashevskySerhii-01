@@ -1,3 +1,32 @@
-**In your Rstudio New File > Quarto Document
-Choose title, for example Statistics Excercises, you can type in the Author, choose HTML as a format, click Create.
-Save the .qmd file.**
+---
+title: "Statistics Excercises"
+author: "Blazej Kochanski"
+format: html
+toc: true
+editor: visual
+---
+
+## Statistical inference
+
+There are **two main topics** in *statistical inference*:
+
+* Confidence intervals, 
+* Hypothesis testing. 
+
+You can read about them [in the script by Dr B](https://blazejkochanski-statistics2.share.connect.posit.cloud/). 
+
+### Confidence intervals
+
+Examples:
+
+### Hypothesis testing
+
+Examples:
+
+### Plot test
+
+```{r}
+library(ggplot2)
+ggplot(mtcars, aes(x=qsec))+geom_histogram()
+
+```
